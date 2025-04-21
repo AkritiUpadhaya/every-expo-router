@@ -8,6 +8,7 @@ export default function TabLayout() {
         <Tabs.Screen name='one' options={{tabBarLabel:'home', headerShown:false}}/>
         <Tabs.Screen name='two' options={{tabBarLabel:'address'}}/>
         <Tabs.Screen name='hidden' options={{href:null}}/>
+        <Tabs.Screen name='(three)' options={{headerShown:false}}/>
     </Tabs>
   )
 }

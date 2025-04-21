@@ -12,11 +12,15 @@ export default function Page() {
         </Link>
 
         <Link href={'/(tabs)/one'} asChild>
-        <Button title='Open tab with link'/>
+        <Button title='Go to tab pages'/>
         </Link>
 
         <Link href={'/modal'} asChild>
         <Button title='Go to modal'/>
+        </Link>
+
+        <Link href={'/(aux)/disclaimer'} asChild>
+        <Button title='disclaimer page'/>
         </Link>
        
     </View>
