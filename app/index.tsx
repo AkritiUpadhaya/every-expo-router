@@ -10,6 +10,11 @@ export default function Page() {
         <Link href={'/register'} asChild>
         <Button title='Open register with link'/>
         </Link>
+
+        <Link href={'/one'} asChild>
+        <Button title='Open tab with link'/>
+
+        </Link>
     </View>
   )
 }
