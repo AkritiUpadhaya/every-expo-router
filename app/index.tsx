@@ -11,10 +11,11 @@ export default function Page() {
         <Button title='Open register with link'/>
         </Link>
 
-        <Link href={'/one'} asChild>
+        <Link href={'/(tabs)/one'} asChild>
         <Button title='Open tab with link'/>
-
         </Link>
+
+       
     </View>
   )
 }

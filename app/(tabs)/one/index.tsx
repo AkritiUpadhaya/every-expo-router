@@ -11,6 +11,11 @@ export default function one() {
 
 
         <Button title='logout with button' onPress={()=>router.replace('/(tabs)/two')} />
+
+        <Link href={'/(tabs)/one/details'}  asChild>
+        <Button title='Open details'/>
+
+        </Link>
     </View>
   )
 }
