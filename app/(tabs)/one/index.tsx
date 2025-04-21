@@ -14,8 +14,13 @@ export default function one() {
 
         <Link href={'/(tabs)/one/details'}  asChild>
         <Button title='Open details'/>
-
         </Link>
+
+        <Link href={'/(tabs)/one/23'}  asChild>
+        <Button title='Open details 23'/>
+        </Link>
+
+
     </View>
   )
 }

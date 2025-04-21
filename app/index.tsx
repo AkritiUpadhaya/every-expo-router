@@ -15,6 +15,9 @@ export default function Page() {
         <Button title='Open tab with link'/>
         </Link>
 
+        <Link href={'/modal'} asChild>
+        <Button title='Go to modal'/>
+        </Link>
        
     </View>
   )
